@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "WELCOME": "Welcome to {{appName}}"
+  },
+  "topbar": {
+    "search": {
+      "PLACEHOLDER": "Type and hit enter.."
+    }
+  },
+  "sidebar": {
+    "WELCOME": "Welcome",
+    "heading": {
+      "HEADER": "Menú"
+    },
+    "nav": {
+      "TERCEROS": "Terceros",
+      "COMMERCE": "Comercial",
+      "BILLING": "Facturas",
+      "INVENTORY": "Inventario",
+      "USERS": "Usuarios",
+      "CONFIGURATION": "Configuración",
+      "menu": {
+        "MENU": "Menu",
+        "SUBMENU": "Sub Menu"
+      }
+    }
+  }
+}
