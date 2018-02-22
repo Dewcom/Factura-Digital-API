@@ -1,6 +1,6 @@
 package com.dewcom.light.user
 
-import com.dewcom.light.billing.Bill
+import com.dewcom.light.billing.Invoice
 import com.dewcom.light.rest.user.UserRequest
 import com.dewcom.light.utils.Constants
 import groovy.transform.EqualsAndHashCode
@@ -23,7 +23,7 @@ class User implements Serializable {
 	boolean passwordExpired
 
 
-	static hasMany = [bills: Bill]
+	static hasMany = [bills: Invoice]
 
 	String userCode
 	String name

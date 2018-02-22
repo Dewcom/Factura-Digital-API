@@ -1,10 +1,5 @@
-import com.dewcom.light.billing.BillPaymentType
-import com.dewcom.light.billing.BillStateType
 import com.dewcom.light.configuration.Configuration
-import com.dewcom.light.billing.CreditCondition
-import com.dewcom.light.billing.Currency
-import com.dewcom.light.billing.ExchangeRate
-import com.dewcom.light.rest.report.customer.response.CustomerPurchasesReport
+
 import com.dewcom.light.thirdparty.CustomerType
 import com.dewcom.light.thirdparty.IdentificationType
 import com.dewcom.light.warehouse.MeasureUnit
@@ -14,7 +9,6 @@ import com.dewcom.light.user.Role
 import com.dewcom.light.user.User
 import com.dewcom.light.user.UserRole
 import com.dewcom.light.warehouse.WarehouseOrderStateType
-import grails.converters.JSON
 
 class BootStrap {
 

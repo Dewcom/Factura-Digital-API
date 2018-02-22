@@ -114,6 +114,4 @@ class ContactService {
         tmpContact.customer = Customer.findById(pContactRest.customerId as Long);
         return tmpContact;
     }
-
-
 }

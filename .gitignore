@@ -31,3 +31,37 @@
 
 # "temporary" build files
 /target
+
+*.iws
+.settings
+.classpath
+.project
+.asscache
+stacktrace.log
+/*.zip
+/plugin.xml
+/*.log
+/*DB.*
+/cobertura.ser
+.DS_Store
+/target/
+bower_components/
+node_modules/
+/out/
+/web-app/plugins
+/.link_to_grails_plugins/
+/target-eclipse/
+*.iml
+
+# IntelliJ
+.idea/
+**/.idea/
+/out/
+.idea_modules
+.gradle
+bin/
+test/
+tmp/
+build/
+.idea/gradle.xml
+.idea/libraries

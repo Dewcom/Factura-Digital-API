@@ -2,7 +2,7 @@ package com.dewcom.light.thirdparty
 
 import com.dewcom.light.utils.Constants
 import com.dewcom.light.user.User
-import com.dewcom.light.billing.Bill
+import com.dewcom.light.billing.Invoice
 import com.dewcom.light.rest.thirdparty.CustomerRequest
 
 class Customer {
@@ -23,7 +23,7 @@ class Customer {
     IdentificationType identificationType
     CustomerType customerType
 
-    static hasMany = [contacts: Contact, agents: User, addresses: Address, bills:Bill]
+    static hasMany = [contacts: Contact, agents: User, addresses: Address, bills:Invoice]
 
     static belongsTo = [User]
 
